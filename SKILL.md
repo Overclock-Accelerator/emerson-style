@@ -1,7 +1,7 @@
 ---
 name: emerson-style
 description: "Use when Ahmed asks for copy in 'Emerson Style'."
-version: 1.2.0
+version: 1.3.0
 author: Emerson (extracted 2026-09-19 from PwC/Strategy& insight articles)
 license: internal-use
 metadata:
@@ -30,12 +30,13 @@ This skill is versioned and tracked in the public `emerson-style` repo (overcloc
 ## Workflow
 
 1. **Draft against the profile below.** Read the calibration passages first — they are the few-shot payload. Patterns beat adjectives.
-2. **Gate 1 — Rhythm.** Split the draft into sentences with a script. Target: mean 14–16 words, with the signature long-evidence/short-verdict pairing (a 20–40-word analytical sentence followed by a 2–8-word verdict). If the draft is metronomic, rewrite at least two sentences into that pairing. **Overcorrection check (added v1.2.0):** if more than ~30% of sentences are under 8 words, the draft has drifted into punchy-social staccato — that is NOT this voice. Rebuild with long analytical sentences carrying the evidence; the short verdicts only work as punctuation against them. Every paragraph or two needs at least one 20–40-word sentence.
+2. **Gate 1 — Rhythm.** Split the draft into sentences with a script. Target: mean 14–16 words, with the signature long-evidence/short-verdict pairing (a 20–40-word analytical sentence followed by a 2–8-word verdict). If the draft is metronomic, rewrite at least two sentences into that pairing. **Overcorrection check (added v1.2.0):** if more than ~30% of sentences are under 8 words, the draft has drifted into punchy-social staccato — that is NOT this voice. Rebuild with long analytical sentences carrying the evidence; the short verdicts only work as punctuation against them. Every paragraph or two needs at least one 20–40-word sentence. **Format scoping (added v1.3.0):** the 14–16 mean applies to paragraph prose. For standalone numbered sentences with mid-sentence attribution ("in our survey of 15,000…"), attribution adds 4–6 words per sentence; a mean up to ~18 is acceptable provided the median stays near 14 and the long/short pairing survives.
 3. **Gate 2 — AI-tell scan.** Search the draft for: delve, leverage, unlock, harness, seamless, innovative, transformative, landscape, utilize, game-changer, "in today's", "It's not X, it's Y" pivots, formal openers (Furthermore/Moreover/Therefore), meta-commentary ("In this article"), vague upbeat endings ("the future looks bright"). Fix every hit. (PwC marketers use "unlock"/"harness" in headlines; that license does not extend to insight prose.)
 4. **Gate 3 — Structural AI-tell scan (density and argument shape).** Word-level bans are not enough — the AI-ness of a draft usually lives in structure. **These budgets are caps, not targets (v1.2.0): the devices below are signature moves of this voice. Budget them, do not eliminate them — a draft with zero rhetorical texture and all-short sentences has been stripped, not fixed. Run Gate 3 first, then re-run Gate 1 to confirm the rhythm survived.** Check and fix:
    - **Colon budget: ≤1 per paragraph, ≤2 per piece.** Colons are this voice's weakest tic — every "The pitch is X:" and "The result is Y:" is a claim announcing itself. Rewrite as two sentences or a comma splice that earns its place.
    - **Rhetorical-question device: ≤1 per piece, never two in one piece.** "A potential pitfall?" is a house move, but one per piece is a signature and two is a formula.
-   - **Verdict-sentence pairing: ≤1 per paragraph.** The long-evidence/short-verdict move is a signature, not a skeleton. If three sentences in a row are set up as punchlines, flatten two of them.
+   - **Verdict-sentence pairing: ≤1 per paragraph, ≤2 per piece (v1.3.0).** The long-evidence/short-verdict move is a signature, not a skeleton. If three sentences in a row are set up as punchlines, flatten two of them — and count across the whole piece: three short verdicts in ten sentences reads as a formula even when each obeys the per-paragraph cap.
+   - **Evidence mix: at most one attributed survey per piece (v1.3.0).** Anchor on a single survey; every further evidence point should be a named company, a dated decision, or an observable fact. Two surveys stacked reads as report aggregation, not a point of view.
    - **Ban the negative-reveal opener** ("A new class of X is entering…, and it does not Y"). State the subject's claim directly instead.
    - **Ban in-line justification**: "which is exactly why," "the result is a… that," "which is precisely." State the fact; let the implication sit. Trust the reader.
    - **Not-X-but-Y pivots are banned by structure, not string**: "not X, it's Y," "X rather than Y," "less like X and more like Y" all count. ≤1 per piece, any phrasing.
@@ -90,7 +91,8 @@ This skill is versioned and tracked in the public `emerson-style` repo (overcloc
 - DO use the rhetorical question / short answer device to clear objections.
 - DO end on prescriptions: two or three bolded imperatives a leader can act on.
 - DON'T use hype adjectives or AI-slop verbs (delve, leverage, unlock, harness, utilize).
-- DON'T stack devices: ≤1 colon per paragraph, ≤1 rhetorical question per piece, ≤1 verdict pairing per paragraph. Density is the tell (Ahmed, 2026-09-19).
+- DON'T stack devices: ≤1 colon per paragraph, ≤1 rhetorical question per piece, ≤1 verdict pairing per paragraph and ≤2 per piece. Density is the tell (Ahmed, 2026-09-19).
+- DON'T stack surveys: one attributed survey per piece, then switch to named cases and observable facts. Two surveys in one piece reads as aggregation (self-assessment, 2026-09-19).
 - DON'T overcorrect the other way: the budgets cap signature devices, they don't ban them. All-short sentences and zero texture is staccato slop, not Emerson Style (Ahmed, 2026-09-19).
 - DON'T open with a negative reveal or close by announcing the insight; the ending prescribes, it doesn't summarize.
 - DON'T celebrate adoption without warning about settling for too little — the voice always pairs momentum with the gap.
