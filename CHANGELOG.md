@@ -2,6 +2,13 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.14.0 — 2026-09-19
+
+Source: Ahmed's thread feedback on the v1.13.0 redo of the agentic-code-review test. Two corrections: (1) "And yes root out that shape of sentence" — the mirror-negation ban now covers the affirm/negate *shape* itself, not just the bare "is not"; the v1.13.0 fix sentence ("The productivity is real; the capacity to review the work, however, never grew with it.") still fails. (2) "The thing I want you to keep refining is the culling of advice baked into the language" — Ahmed flagged "Dismissal carries its own risk" from the redo as counsel disguised as observation: "rather than being a plain spoken narrator of what's occurring."
+
+- **Mirror-negation ban hardened (Gate 3).** The ban now covers the shape, not the string: a balanced rhetorical unit built from an affirmation and its mirror negation reads generated even when the negative half carries its own verb. Narrate the facts plainly — "and"-joined or as separate observations ("The productivity gains are real, and the review capacity never grew to meet them.") — or cut the half that adds nothing. Gate 3 and Do/Don't updated.
+- **Counsel baked into the language (Gate 3, extends the v1.4.0 advice-register ban).** Advice arrives dressed as observation: warning nouns ("dismissal carries its own risk," "the danger is," "a common mistake") and should-shaped statements ("the vendor data deserves skepticism") steer the reader's response without an imperative in sight — the helpful assistant managing the reader. The voice is a plain-spoken narrator of what's occurring: state the conflict of interest as fact ("the data comes from vendors selling the remedy") and let the reader reach the caution on their own. Test: does the sentence report what is happening, or manage what the reader should do or feel about it? Gate 3 and Do/Don't updated.
+
 ## 1.13.0 — 2026-09-19
 
 Source: Ahmed's thread feedback on the v1.11.3 daily test (agentic code review piece): "'The X is true, but blank is not' is an AI trope. Be wary of using it." The flagged shape was the piece's own verdict pairing — "The productivity is real; the review capacity, however, is not." Same message confirmed the three v1.12.0 proposals ("Apply the rule change").
