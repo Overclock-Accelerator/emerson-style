@@ -2,6 +2,13 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.11.2 — 2026-09-19
+
+Source: Ahmed's approval of the two rule proposals from the v1.11.0 validation test (self-assessment thread in #ai-writing-voice).
+
+- **Audible-collision extension to the sound-trip scan.** Banned phrases are now judged by ear, not by string: a word boundary doesn't neutralize a banned sound. "Service was always a trust business" is not the literal "as always," but a subvocalizing reader hears the banned knowing-aside anyway — it counts as a hit. Found in the v1.11.0 test closer; rewritten to "a trust business all along." Gate 6 updated.
+- **Passive-detector fix.** The v1.11.0 passive scan matched only -ed/-en participles and missed irregulars ("were never built" slipped through the mechanical check in the test; only a manual pass caught it). Now: be-verb + optional adverb + any past participle, irregulars included. Gate 3 updated.
+
 ## 1.11.1 — 2026-09-19
 
 Source: Ahmed's portability note for outside users of the skill.
