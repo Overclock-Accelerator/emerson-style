@@ -2,11 +2,22 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.11.0 — 2026-09-19
+
+Source: subvocalization research commissioned by Ahmed (`workspace/subvocalization-research-2026-09-19.md` — phonological loop, cognitive load theory, write-for-the-ear speechwriting craft). All six proposed rules approved by Ahmed and implemented.
+
+- **Read-aloud gate (new Gate 6).** Read the draft aloud at speaking pace (or through TTS) before delivery — the subvocalizing reader performs this prose, so the ear is the final gate. Any sentence where the breath runs out gets split.
+- **Breath rule.** Every sentence over ~20 words carries an internal pause point (comma or em-dash) where a speaker would naturally pause; a 25+ word sentence with no internal punctuation is a defect. Generalizes the v1.9.0 semicolon rule. Gate 1, rhythm profile, punctuation profile, and Do/Don't updated.
+- **Depth cap.** Long evidence sentences (20–40 words) carry one level of embedding only, with the subject and main verb inside the first ~10 words — word count alone misses the overload that stacked subordination creates. Gate 1, rhythm profile, and Do/Don't updated.
+- **Word-length plainness.** Prefer the shorter word when the meaning survives; no sentence built mostly of 3+ syllable abstractions (general-audience prose averages 4–5 letters per word). Gate 3, word-choice profile, and Do/Don't updated.
+- **Sound-trip scan.** Read-aloud pass flags unintended rhyme and sibilant/alliterative runs in adjacent stressed words — distinct from the root-echo rule (echo = repeated word root, trip = sound collision). Gate 6 and Do/Don't updated.
+- **Passive voice budget.** Key claims in active voice, actor before verb; passive under ~10% of sentences, kept for variety or a genuinely unknown actor. Gate 3, word-choice profile, and Do/Don't updated.
+
 ## 1.10.0 — 2026-09-19
 
-Source: Ahmed's correction on the v1.9.0 redo of the AI-ROI-after-the-pilot daily test in #ai-writing-voice ("Be careful not to over use however and clauses. They are helpful but can become burdensome if overused.").
+Source: Ahmed's correction on the v1.9.0 redo of the AI-ROI-after-the-pilot daily test in #ai-writing-voice ("Be careful not to over use however and clauses. They are helpful but can become burdensome if overused."). The v1.9.0 redo carried however twice plus meanwhile, Instead, In practice, although, on its own, and in most cases — nearly every sentence hedged. (Synced to this repo late — the rule shipped in the local skill before the repo update that became v1.11.0.)
 
-- **Connective budget added to the connective check.** v1.5.0 set a floor (a draft with zero connectives is over-compressed); the v1.9.0 redo showed the floor needs a ceiling — the piece carried however twice plus meanwhile, Instead, In practice, although, on its own, and in most cases, and nearly every sentence hedged. Now: however at most twice per piece, a hedging sub-clause ("meanwhile," "in practice," "on its own," "in most cases," "so far") at most once per paragraph, and one qualification per sentence — a sentence that turns on a connective doesn't also carry a hedge. When most sentences hedge, the draft reads as if it doesn't trust its own claims: cut the hedges, keep the claims. Gate 1 and Do/Don't updated.
+- **Connective budget.** The v1.5.0 connective floor gets a ceiling: however at most twice per piece; a hedging sub-clause ("meanwhile," "in practice," "on its own," "in most cases," "so far") at most once per paragraph; one qualification per sentence — a sentence that turns on a connective doesn't also carry a hedge. When most sentences hedge, the draft reads as if it doesn't trust its own claims: cut the hedges, keep the claims. Gate 1 and Do/Don't updated.
 
 ## 1.9.0 — 2026-09-19
 
