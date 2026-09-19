@@ -2,6 +2,12 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.7.0 — 2026-09-19
+
+Source: Ahmed on the v1.6.0 revised daily test closer ("I don't know what it is about that last sentence that doesn't make any sense") in #ai-writing-voice.
+
+- **Literal-read rule for payload sentences, especially closers.** "For now, the value leaks out between code written and code trusted, and most budgets have not noticed" failed three ways: a container metaphor ("leaks out") stretched over a gap ("between"), a personified inanimate (budgets cannot notice), and two clauses stapled with "and" carrying no stated relationship. New Gate 3 rule: one metaphor per sentence, actors that can perform their verbs, and the second clause must be the consequence of the first — the fix is plainness, not a better metaphor ("almost no budget has a line for the difference"). Gate 3 and Do/Don't updated.
+
 ## 1.6.0 — 2026-09-19
 
 Source: Ahmed's corrections on the v1.5.2 daily test (AI coding agents piece) in #ai-writing-voice.
