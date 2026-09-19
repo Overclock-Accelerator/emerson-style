@@ -2,6 +2,12 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.10.0 — 2026-09-19
+
+Source: Ahmed's correction on the v1.9.0 redo of the AI-ROI-after-the-pilot daily test in #ai-writing-voice ("Be careful not to over use however and clauses. They are helpful but can become burdensome if overused.").
+
+- **Connective budget added to the connective check.** v1.5.0 set a floor (a draft with zero connectives is over-compressed); the v1.9.0 redo showed the floor needs a ceiling — the piece carried however twice plus meanwhile, Instead, In practice, although, on its own, and in most cases, and nearly every sentence hedged. Now: however at most twice per piece, a hedging sub-clause ("meanwhile," "in practice," "on its own," "in most cases," "so far") at most once per paragraph, and one qualification per sentence — a sentence that turns on a connective doesn't also carry a hedge. When most sentences hedge, the draft reads as if it doesn't trust its own claims: cut the hedges, keep the claims. Gate 1 and Do/Don't updated.
+
 ## 1.9.0 — 2026-09-19
 
 Source: Ahmed's approvals and corrections on the v1.8.0 daily test (AI-ROI-after-the-pilot piece) in #ai-writing-voice.
