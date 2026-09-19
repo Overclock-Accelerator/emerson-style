@@ -2,6 +2,14 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.8.0 — 2026-09-19
+
+Source: Ahmed's consolidated list of what AI writing does badly, translated into the style guide (v0.7) and folded in here.
+
+- **Register check: never too knowing.** The umbrella over the v1.4.0/v1.5.2 persona bans — the tell is the stance (cheeky, cool, ahead of the reader), not any single device. New Gate 3 rule and Do/Don't entry: write alongside the reader, not above them; when a sentence's charm comes from being clever rather than right, rewrite it.
+- **Recipe-advice ban.** AI advice makes outcomes sound deterministic and easy — "Do this, then that happens. Do this and this, then that and that." New Gate 3 rule: any [action] → [promised outcome] sentence gets the friction test (name the cost, timeline, or contingency inside the advice). Applies to dedicated advice sections too. Do/Don't updated.
+- **Connectives-as-breath confirmed.** Ahmed's diagnosis ("words that add tokens so might seem useless but give readers a second to breathe when they subvocalize") restates and hardens the v1.5.0 connective check — no rule change, the Gate 1 scan stands.
+
 ## 1.7.0 — 2026-09-19
 
 Source: Ahmed on the v1.6.0 revised daily test closer ("I don't know what it is about that last sentence that doesn't make any sense") in #ai-writing-voice.
