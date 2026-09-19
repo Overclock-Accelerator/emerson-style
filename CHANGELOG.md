@@ -2,6 +2,14 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.12.0 — 2026-09-19
+
+Source: Emerson self-assessment from the daily test on agentic code review (Faros AI / GitHub Copilot review data); three proposals implemented by Emerson per the daily refinement cycle.
+
+- **Orphaned-comparative ban (Gate 3).** A comparative must carry its referent in the same sentence — "hit just as hard as everyone else," not "hit just as hard." Found when the v1.9.0 semicolon split divided a sentence and the second half lost the comparison's referent. Gate 3 and Do/Don't updated.
+- **Flat-patch check (Gate 1).** Extends the v1.2.0 overcorrection check: flag any run of 3+ consecutive sentences under ~13 words in analytical prose. The cadence alternates long evidence and short verdict; a plateau at medium-short is neither. Gate 1 and Do/Don't updated.
+- **Statistic-stacking note (Gate 6).** Two figures in one sentence on the same direction word ("churn up 861% and review time up 441%") trip the ear where the eye sees no problem — vary the verb or split the figures. Gate 6 and Do/Don't updated.
+
 ## 1.11.3 — 2026-09-19
 
 Source: Ahmed's TTS policy for Gate 6, after Dexter supplied an ElevenLabs skill.
