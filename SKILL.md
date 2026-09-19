@@ -1,7 +1,7 @@
 ---
 name: emerson-style
 description: "Use when Ahmed asks for copy in 'Emerson Style'."
-version: 1.4.0
+version: 1.5.0
 author: Emerson (extracted 2026-09-19 from PwC/Strategy& insight articles)
 license: internal-use
 metadata:
@@ -30,8 +30,8 @@ This skill is versioned and tracked in the public `emerson-style` repo (Overcloc
 ## Workflow
 
 1. **Draft against the profile below.** Read the calibration passages first — they are the few-shot payload. Patterns beat adjectives.
-2. **Gate 1 — Rhythm.** Split the draft into sentences with a script. Target: mean 14–16 words, with the signature long-evidence/short-verdict pairing (a 20–40-word analytical sentence followed by a qualified verdict of 6–14 words — never a bare pronouncement; see Gate 3). If the draft is metronomic, rewrite at least two sentences into that pairing. **Overcorrection check (added v1.2.0):** if more than ~30% of sentences are under 8 words, the draft has drifted into punchy-social staccato — that is NOT this voice. Rebuild with long analytical sentences carrying the evidence; the short verdicts only work as punctuation against them. Every paragraph or two needs at least one 20–40-word sentence. **Format scoping (added v1.3.0):** the 14–16 mean applies to paragraph prose. For standalone numbered sentences with mid-sentence attribution ("in our survey of 15,000…"), attribution adds 4–6 words per sentence; a mean up to ~18 is acceptable provided the median stays near 14 and the long/short pairing survives.
-3. **Gate 2 — AI-tell scan.** Search the draft for: delve, leverage, unlock, harness, seamless, innovative, transformative, landscape, utilize, game-changer, "in today's", "It's not X, it's Y" pivots, formal openers (Furthermore/Moreover/Therefore), meta-commentary ("In this article"), vague upbeat endings ("the future looks bright"). Fix every hit. (PwC marketers use "unlock"/"harness" in headlines; that license does not extend to insight prose.)
+2. **Gate 1 — Rhythm.** Split the draft into sentences with a script. Target: mean 14–16 words, with the signature long-evidence/short-verdict pairing (a 20–40-word analytical sentence followed by a qualified verdict of 6–14 words — never a bare pronouncement; see Gate 3). If the draft is metronomic, rewrite at least two sentences into that pairing. **Overcorrection check (added v1.2.0):** if more than ~30% of sentences are under 8 words, the draft has drifted into punchy-social staccato — that is NOT this voice. Rebuild with long analytical sentences carrying the evidence; the short verdicts only work as punctuation against them. Every paragraph or two needs at least one 20–40-word sentence. **Format scoping (added v1.3.0):** the 14–16 mean applies to paragraph prose. For standalone numbered sentences with mid-sentence attribution ("in our survey of 15,000…"), attribution adds 4–6 words per sentence; a mean up to ~18 is acceptable provided the median stays near 14 and the long/short pairing survives. **Connective check (added v1.5.0):** scan the draft for however / nevertheless / although / still / yet. A draft with none has been over-compressed — AI copy cuts connectives for token efficiency, but they mark the turns of an argument and give a subvocalizing reader a natural pause. Several per piece is normal for this voice.
+3. **Gate 2 — AI-tell scan.** Search the draft for: delve, leverage, unlock, harness, seamless, innovative, transformative, landscape, utilize, game-changer, "in today's", "It's not X, it's Y" pivots, formal openers (Furthermore/Moreover/Therefore used as paragraph scaffolding — this bans the formula, not connective tissue: mid-sentence however/although/still/yet are required seasoning, not tells; see Gate 1's connective check), meta-commentary ("In this article"), vague upbeat endings ("the future looks bright"). Fix every hit. (PwC marketers use "unlock"/"harness" in headlines; that license does not extend to insight prose.)
 4. **Gate 3 — Structural AI-tell scan (density and argument shape).** Word-level bans are not enough — the AI-ness of a draft usually lives in structure. **These budgets are caps, not targets (v1.2.0): the devices below are signature moves of this voice. Budget them, do not eliminate them — a draft with zero rhetorical texture and all-short sentences has been stripped, not fixed. Run Gate 3 first, then re-run Gate 1 to confirm the rhythm survived.** Check and fix:
    - **Colon budget: ≤1 per paragraph, ≤2 per piece.** Colons are this voice's weakest tic — every "The pitch is X:" and "The result is Y:" is a claim announcing itself. Rewrite as two sentences or a comma splice that earns its place.
    - **Rhetorical-question device: ≤1 per piece, never two in one piece.** "A potential pitfall?" is a house move, but one per piece is a signature and two is a formula.
@@ -56,6 +56,7 @@ This skill is versioned and tracked in the public `emerson-style` repo (Overcloc
 - Signature move: a long analytical sentence (20–40 words, often carrying survey data or a causal chain) followed by a short verdict sentence. **The verdict is qualified, never bare (v1.4.0, Ahmed):** a two-to-five-word pronouncement ("Adoption is the easy part.") poses as a casual aside and is a reliable AI tell; carry a qualifier or subordinate clause ("Adoption, however, is often the easy part."). Verdicts run 6–14 words. The bare fragment survives only as the answer inside the rhetorical-question device ("A potential pitfall? Settling for too little.") — the question carries the setup.
 - Paragraph length: 2–4 sentences. Headers are declarative full sentences ("AI becomes an enterprise capability."), not topic labels.
 - Cadence: claim → evidence (percentages, survey counts) → implication for leaders. The short sentence lands the implication.
+- Connective tissue: qualifying connectives (however, nevertheless, although, still, yet) appear several times per piece, mid-sentence and between sentences. They pace the argument for a reader who subvocalizes the prose; stripping them for concision is an AI economy, not a reader's (v1.5.0, Ahmed).
 
 ### Openers
 - Direct claims with the subject up front: "AI is changing the role of technology in enterprise performance."
@@ -91,6 +92,7 @@ This skill is versioned and tracked in the public `emerson-style` repo (Overcloc
 - DO frame technology as a strategic choice tied to measurable outcomes and trust, never capability for its own sake.
 - DO name the current era and position the reader's decision inside it.
 - DO use the rhetorical question / short answer device to clear objections.
+- DO keep the argumentative connectives (however, although, still, yet) — they slow the density of ideas and pace a reader who hears the prose aloud in their head (Ahmed, 2026-09-19).
 - DO end long-form pieces with a dedicated advice section: two or three bolded imperatives a leader can act on. Standalone pieces end on an observation instead.
 - DON'T use hype adjectives or AI-slop verbs (delve, leverage, unlock, harness, utilize).
 - DON'T stack devices: ≤1 colon per paragraph, ≤1 rhetorical question per piece, ≤1 verdict pairing per paragraph and ≤2 per piece. Density is the tell (Ahmed, 2026-09-19).
@@ -103,6 +105,7 @@ This skill is versioned and tracked in the public `emerson-style` repo (Overcloc
 - DON'T celebrate adoption without warning about settling for too little — the voice always pairs momentum with the gap.
 - DON'T write topic-label headers ("Introduction," "Background"); headers are declarative sentences.
 - DON'T joke, hedge with "might perhaps," or speak in first person singular; the voice is the firm ("we," "our survey").
+- DON'T compress for compression's sake: a draft with zero connectives (however, although, still, yet) has been edited for token economy, not for readers (Ahmed, 2026-09-19).
 
 ## Calibration passages (few-shot payload — verbatim from source)
 

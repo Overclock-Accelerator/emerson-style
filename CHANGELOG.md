@@ -2,6 +2,12 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.5.0 — 2026-09-19
+
+Source: Ahmed's fourth correction on the v1.3.0 daily test, generalizing the qualified-verdict rule.
+
+- **Connective-tissue rule.** AI copy cuts transition words (however, nevertheless, although, still, yet) for token efficiency, which compresses idea density and removes the pauses a subvocalizing reader needs. These connectives are now expected seasoning: several per piece, mid-sentence and between sentences. Gate 1 gained a connective check (a draft with zero is over-compressed); Gate 2's formal-opener ban was scoped to paragraph scaffolding (Furthermore/Moreover/Therefore opening paragraphs) so it can't be used to strip qualifying connectives; Rhythm profile and Do/Don't updated.
+
 ## 1.4.0 — 2026-09-19
 
 Source: Ahmed's corrections on the v1.3.0 daily test (AI coding agents piece) in #ai-writing-voice.
