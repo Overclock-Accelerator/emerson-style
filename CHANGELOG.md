@@ -2,6 +2,12 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.11.3 — 2026-09-19
+
+Source: Ahmed's TTS policy for Gate 6, after Dexter supplied an ElevenLabs skill.
+
+- **TTS policy replaces the v1.11.1 fallback.** Default is now skip-TTS: the read-aloud gate runs manually (read aloud or analytic breath/sound-trip pass) unless audio is requested. When audio is requested: ElevenLabs if an ElevenLabs API key is configured, else edge TTS, else skip TTS entirely and run the manual gate. Standing exception: the daily Emerson test always runs the TTS gate and delivers the audio to Ahmed. Gate 6 and Do/Don't updated; daily-test cron job updated to match.
+
 ## 1.11.2 — 2026-09-19
 
 Source: Ahmed's approval of the two rule proposals from the v1.11.0 validation test (self-assessment thread in #ai-writing-voice).
