@@ -2,6 +2,12 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.13.0 — 2026-09-19
+
+Source: Ahmed's thread feedback on the v1.11.3 daily test (agentic code review piece): "'The X is true, but blank is not' is an AI trope. Be wary of using it." The flagged shape was the piece's own verdict pairing — "The productivity is real; the review capacity, however, is not." Same message confirmed the three v1.12.0 proposals ("Apply the rule change").
+
+- **Mirror-negation trope (Gate 3).** A clause affirmed, then its mirror dismissed with a bare negation, contributes symmetry rather than information — and the tidy symmetry is the tell. The affirm-then-negate sibling of the not-X-but-Y pivot; hides inside the signature verdict pairing, so verdict sentences get scanned for it specifically. The contrast survives; the bare mirrored negation does not — the negative half needs its own verb and fact ("the capacity to review the work, however, never grew with it"). Gate 3 and Do/Don't updated.
+
 ## 1.12.0 — 2026-09-19
 
 Source: Emerson self-assessment from the daily test on agentic code review (Faros AI / GitHub Copilot review data); three proposals implemented by Emerson per the daily refinement cycle.

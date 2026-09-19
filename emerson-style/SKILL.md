@@ -1,7 +1,7 @@
 ---
 name: emerson-style
 description: "Use when Ahmed asks for copy in 'Emerson Style'."
-version: 1.12.0
+version: 1.13.0
 author: Emerson (extracted 2026-09-19 from PwC/Strategy& insight articles)
 license: internal-use
 metadata:
@@ -41,6 +41,7 @@ This skill is versioned and tracked in the public `emerson-style` repo (Overcloc
    - **Ban the negative-reveal opener** ("A new class of X is entering…, and it does not Y"). State the subject's claim directly instead.
    - **Ban in-line justification**: "which is exactly why," "the result is a… that," "which is precisely." State the fact; let the implication sit. Trust the reader.
    - **Not-X-but-Y pivots are banned by structure, not string**: "not X, it's Y," "X rather than Y," "less like X and more like Y" all count. ≤1 per piece, any phrasing.
+   - **Mirror-negation trope (v1.13.0, Ahmed).** "The X is true, but Y is not" — a clause affirmed, then its mirror dismissed with a bare negation ("The productivity is real; the review capacity, however, is not.") — is an AI trope. The second half contributes symmetry, not information, and the tidy symmetry is the tell. This is the affirm-then-negate sibling of the not-X-but-Y pivot, and it hides inside the signature verdict pairing, so scan verdict sentences for it specifically. The contrast itself is allowed; the bare mirrored negation is not. Give the negative half its own verb and its own fact ("The productivity is real; the capacity to review the work, however, never grew with it."), or cut it. Be wary of the shape even when each half passes its other checks.
    - **Three-item escalating lists**: cut the third item if it's there for rhythm. Two specifics beat three.
    - **Loose-thread rule**: real analysis leaves something unresolved. Vendor numbers get doubt carried in the sentence ("vendor-reported, unverified"); one question or implication may stay open at the end.
    - **The closer must not announce its own insight** ("For leaders, the shift is strategic rather than technical:"). End on a sharp observation, not a summary of what the piece meant — and never on an imperative addressed to the reader (see the advice-register rule).
@@ -139,6 +140,7 @@ This skill is versioned and tracked in the public `emerson-style` repo (Overcloc
 - DON'T leave a comparative without its referent ("hit just as hard." — as hard as whom?) — an orphaned comparison asserts where it should measure, and the compression reads as generated. Watch for it right after a semicolon split (v1.12.0).
 - DON'T let the cadence plateau: a run of 3+ consecutive sentences under ~13 words flattens the long/short alternation even when no single sentence is staccato — merge or expand one (v1.12.0).
 - DON'T stack two statistics in one sentence on the same direction word ("up 861% and up 441%") — the ear trips where the eye doesn't; vary the verb or split the figures (v1.12.0).
+- DON'T negate by mirror ("The X is true, but Y is not"; "The productivity is real; the review capacity is not") — the bare mirrored negation adds symmetry, not information, and the cadence reads as generated. Give the negative half its own verb and fact, or cut it (Ahmed, 2026-09-19).
 
 ## Calibration passages (few-shot payload — verbatim from source)
 
