@@ -2,6 +2,14 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.4.0 — 2026-09-19
+
+Source: Ahmed's corrections on the v1.3.0 daily test (AI coding agents piece) in #ai-writing-voice.
+
+- **Qualified-verdict rule.** Bare short verdicts ("Adoption is the easy part.") pose as casual asides — a reliable AI tell. Every standalone verdict now carries a qualifier or subordinate clause ("Adoption, however, is often the easy part."); verdicts run 6–14 words. The bare fragment survives only as the answer inside the rhetorical-question device ("A potential pitfall? Settling for too little."), where the question carries the setup. Rhythm profile, Gate 1, Gate 3, and Do/Don't updated.
+- **Advice-register ban.** The voice is impersonal exposition; it observes and weighs, it does not advise the reader. Reader-directed imperatives ("Fund the review layer as deliberately as you funded the models") shift into helpful-assistant register — an AI giveaway. Closers now end on a sharp observation that states the imbalance and lets the implication sit. Imperatives survive only in dedicated, labeled advice sections with bolded leads. Attitude, structural-habits, Gate 3 closer rule, and Do/Don't updated.
+- **In-group tell ban.** Winner-club casualisms ("The teams getting the most from agents…") read as hip insider language — "it's cool to be in the know" — not executive consulting. Evidence is now stated through the practice itself, not the club practicing it. The three rules share one principle: the voice never performs a persona (casual aside, helpful assistant, hip insider). Gate 3, word-choice avoid list, and Do/Don't updated.
+
 ## 1.3.0 — 2026-09-19
 
 Source: first daily test-and-refine cycle run (topic: AI coding agents become the default; 10 standalone sentences posted to #ai-writing-voice with threaded self-assessment).
