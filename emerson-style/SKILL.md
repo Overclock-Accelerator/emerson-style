@@ -1,7 +1,7 @@
 ---
 name: emerson-style
 description: "Use when Ahmed asks for copy in 'Emerson Style'."
-version: 1.5.2
+version: 1.6.0
 author: Emerson (extracted 2026-09-19 from PwC/Strategy& insight articles)
 license: internal-use
 metadata:
@@ -44,7 +44,9 @@ This skill is versioned and tracked in the public `emerson-style` repo (Overcloc
    - **Loose-thread rule**: real analysis leaves something unresolved. Vendor numbers get doubt carried in the sentence ("vendor-reported, unverified"); one question or implication may stay open at the end.
    - **The closer must not announce its own insight** ("For leaders, the shift is strategic rather than technical:"). End on a sharp observation, not a summary of what the piece meant — and never on an imperative addressed to the reader (see the advice-register rule).
    - **Ban the advice-register shift (v1.4.0, Ahmed).** The voice is impersonal exposition: it observes, weighs, and points — it does not advise the reader. A reader-directed imperative ("Fund the review layer as deliberately as you funded the models") shifts into helpful-assistant register, and that shift is an AI giveaway. State the imbalance and let the implication sit: "The review layer, not the model, is where the productivity leaks out." Imperatives survive only inside a dedicated, labeled advice section with bolded leads ("Focus on people."), never in analytical prose.
-   - **Ban the in-group tell (v1.4.0, Ahmed).** Constructions that invite the reader into a hip club of winners — "The teams getting the most from agents…," "the companies winning at AI" — read as casual insider language ("it's cool to be in the know"), not executive consulting. Name the practice and its evidence directly instead: "Teams that write more specifications, and that treat context as a discipline with its own budget, report the strongest results." The general principle across all three v1.4.0 rules: the voice never performs a persona — not the casual aside, not the helpful assistant, not the hip insider.
+   - **Ban the in-group tell (v1.4.0, Ahmed).** Constructions that invite the reader into a hip club of winners — "The teams getting the most from agents…," "the companies winning at AI" — read as casual insider language ("it's cool to be in the know"), not executive consulting. Name the practice and its evidence directly instead: "The strongest results come from unglamorous work — clearer briefs before the agent starts, and review funded as a deliverable in its own right." (v1.6.0 replaces the earlier example — "Teams that write more specifications, and that treat context as a discipline with its own budget, report the strongest results" — which Ahmed flagged in the field as its own AI tell: mirrored "that" stems marching to a tidy payoff. See the mirrored-clause rule below.) The general principle across all three v1.4.0 rules: the voice never performs a persona — not the casual aside, not the helpful assistant, not the hip insider.
+   - **Ban mirrored-clause stems (v1.6.0, Ahmed).** "Teams that X, and that Y, report Z" — the repeated relative stem building to a simple win is scaffolding, not analysis, and it reads as generated even when both clauses are concrete. Break the mirror: state the practices as plain nouns ("clearer briefs before the agent starts, and review funded as a deliverable in its own right").
+   - **Keep the register executive, not engineering (v1.6.0, Ahmed).** Practitioner jargon — "context management," "survives in production," "mergeable," "the review layer" — marks the piece as written for engineers, but the reader is a business professional or executive. Translate the argument into the executive's ledger: budgets, deliverables, returns, trust. A technical term survives only when it is the unit of measurement (pull requests per author). Also watch root echoes inside one sentence ("how much of the productivity survives in production") — a doubled root is a generated line, not a written one.
 5. **Gate 4 — Do/Don't checklist.** Walk the Do/Don't list below line by line against the draft.
 6. **Gate 5 — Vale (if installed).** Run `vale` with the Emerson style pack on the file; fix errors, weigh warnings.
 7. **Deliver with a note** naming the style and version ("Emerson Style vX.Y.Z") and flagging any spots that need real client data (percentages, survey counts) — never invent figures. When posting test pieces to Slack, format the sentences into paragraphs of 2–4 (matching the voice's own paragraph-length profile) — never one run-on block of ten sentences (v1.5.1, Ahmed).
@@ -107,6 +109,8 @@ This skill is versioned and tracked in the public `emerson-style` repo (Overcloc
 - DON'T write topic-label headers ("Introduction," "Background"); headers are declarative sentences.
 - DON'T joke, hedge with "might perhaps," or speak in first person singular; the voice is the firm ("we," "our survey").
 - DON'T compress for compression's sake: a draft with zero connectives (however, although, still, yet) has been edited for token economy, not for readers (Ahmed, 2026-09-19).
+- DON'T stack mirrored "that… and that…" stems toward a tidy payoff ("Teams that X, and that Y, report Z") — the repeated stem is AI scaffolding; name the practices as plain nouns instead (Ahmed, 2026-09-19).
+- DON'T argue in engineering jargon ("survives in production," "mergeable," "context management," "review layer") — the reader is an executive, so translate to budgets, deliverables, and returns; and never double a root inside one sentence ("productivity survives in production") (Ahmed, 2026-09-19).
 
 ## Calibration passages (few-shot payload — verbatim from source)
 

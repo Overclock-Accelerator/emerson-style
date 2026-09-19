@@ -2,6 +2,13 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.6.0 — 2026-09-19
+
+Source: Ahmed's corrections on the v1.5.2 daily test (AI coding agents piece) in #ai-writing-voice.
+
+- **Mirrored-clause stem ban.** "Teams that write more specifications, and that treat context as a discipline with its own budget, report the strongest results" — the repeated "that" stem building to a simple win reads as AI scaffolding even when both clauses are concrete (Ahmed: "the repetitive stem that leads to a simple win feels too much like an AI artifact"). Practices are now stated as plain nouns ("clearer briefs before the agent starts, and review funded as a deliverable in its own right"). Notably, this reverses the replacement example v1.4.0 introduced for the in-group tell — that sentence failed in the field; the in-group rule's example was swapped and the reversal is documented inline.
+- **Executive-register rule.** Practitioner jargon ("context management," "survives in production," "mergeable," "the review layer") marks a piece as written for engineers; the reader is a business professional or executive, so the argument runs in the executive's ledger — budgets, deliverables, returns, trust. A technical term survives only when it is the unit of measurement (pull requests per author). Root echoes inside one sentence ("how much of the productivity survives in production") are banned as generated-sounding. Gate 3 and Do/Don't updated.
+
 ## 1.5.2 — 2026-09-19
 
 - **Knowing-aside ban.** Qualifiers must carry observation, not smugness: "as it usually does," "as always," "predictably," "of course" are banned (Ahmed: "'as it usually does' is not good — it sounds too knowing"). The knowing sage is the fourth persona pose after the casual aside, the helpful assistant, and the hip insider. Gate 3 verdict rule and Do/Don't updated.
