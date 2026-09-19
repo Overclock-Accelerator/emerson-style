@@ -2,6 +2,10 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.5.1 — 2026-09-19
+
+- **Test-post formatting.** Daily test pieces posted to Slack are now broken into paragraphs of 2–4 sentences — the voice's own paragraph-length profile — instead of one run-on block (Ahmed: "format the paragraphs of the sentences"). Delivery step updated.
+
 ## 1.5.0 — 2026-09-19
 
 Source: Ahmed's fourth correction on the v1.3.0 daily test, generalizing the qualified-verdict rule.

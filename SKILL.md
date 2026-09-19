@@ -1,7 +1,7 @@
 ---
 name: emerson-style
 description: "Use when Ahmed asks for copy in 'Emerson Style'."
-version: 1.5.0
+version: 1.5.1
 author: Emerson (extracted 2026-09-19 from PwC/Strategy& insight articles)
 license: internal-use
 metadata:
@@ -47,7 +47,7 @@ This skill is versioned and tracked in the public `emerson-style` repo (Overcloc
    - **Ban the in-group tell (v1.4.0, Ahmed).** Constructions that invite the reader into a hip club of winners — "The teams getting the most from agents…," "the companies winning at AI" — read as casual insider language ("it's cool to be in the know"), not executive consulting. Name the practice and its evidence directly instead: "Teams that write more specifications, and that treat context as a discipline with its own budget, report the strongest results." The general principle across all three v1.4.0 rules: the voice never performs a persona — not the casual aside, not the helpful assistant, not the hip insider.
 5. **Gate 4 — Do/Don't checklist.** Walk the Do/Don't list below line by line against the draft.
 6. **Gate 5 — Vale (if installed).** Run `vale` with the Emerson style pack on the file; fix errors, weigh warnings.
-7. **Deliver with a note** naming the style and version ("Emerson Style vX.Y.Z") and flagging any spots that need real client data (percentages, survey counts) — never invent figures.
+7. **Deliver with a note** naming the style and version ("Emerson Style vX.Y.Z") and flagging any spots that need real client data (percentages, survey counts) — never invent figures. When posting test pieces to Slack, format the sentences into paragraphs of 2–4 (matching the voice's own paragraph-length profile) — never one run-on block of ten sentences (v1.5.1, Ahmed).
 
 ## The profile
 
