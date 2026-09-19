@@ -2,6 +2,10 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.5.2 — 2026-09-19
+
+- **Knowing-aside ban.** Qualifiers must carry observation, not smugness: "as it usually does," "as always," "predictably," "of course" are banned (Ahmed: "'as it usually does' is not good — it sounds too knowing"). The knowing sage is the fourth persona pose after the casual aside, the helpful assistant, and the hip insider. Gate 3 verdict rule and Do/Don't updated.
+
 ## 1.5.1 — 2026-09-19
 
 - **Test-post formatting.** Daily test pieces posted to Slack are now broken into paragraphs of 2–4 sentences — the voice's own paragraph-length profile — instead of one run-on block (Ahmed: "format the paragraphs of the sentences"). Delivery step updated.

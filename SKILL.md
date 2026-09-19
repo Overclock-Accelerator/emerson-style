@@ -1,7 +1,7 @@
 ---
 name: emerson-style
 description: "Use when Ahmed asks for copy in 'Emerson Style'."
-version: 1.5.1
+version: 1.5.2
 author: Emerson (extracted 2026-09-19 from PwC/Strategy& insight articles)
 license: internal-use
 metadata:
@@ -35,7 +35,7 @@ This skill is versioned and tracked in the public `emerson-style` repo (Overcloc
 4. **Gate 3 — Structural AI-tell scan (density and argument shape).** Word-level bans are not enough — the AI-ness of a draft usually lives in structure. **These budgets are caps, not targets (v1.2.0): the devices below are signature moves of this voice. Budget them, do not eliminate them — a draft with zero rhetorical texture and all-short sentences has been stripped, not fixed. Run Gate 3 first, then re-run Gate 1 to confirm the rhythm survived.** Check and fix:
    - **Colon budget: ≤1 per paragraph, ≤2 per piece.** Colons are this voice's weakest tic — every "The pitch is X:" and "The result is Y:" is a claim announcing itself. Rewrite as two sentences or a comma splice that earns its place.
    - **Rhetorical-question device: ≤1 per piece, never two in one piece.** "A potential pitfall?" is a house move, but one per piece is a signature and two is a formula.
-   - **Verdict-sentence pairing: ≤1 per paragraph, ≤2 per piece (v1.3.0).** The long-evidence/short-verdict move is a signature, not a skeleton. If three sentences in a row are set up as punchlines, flatten two of them — and count across the whole piece: three short verdicts in ten sentences reads as a formula even when each obeys the per-paragraph cap. **Qualified, never bare (v1.4.0, Ahmed):** every standalone verdict carries a qualifier or subordinate clause — "Adoption, however, is often the easy part.," not "Adoption is the easy part." Useful qualifiers: however, often, in practice, at least, for now, on its own. A bare two-to-five-word verdict poses as a casual aside; that pose is the AI tell. Exception: the fragment answer inside the rhetorical-question device stays ("A potential pitfall? Settling for too little."), because the question carries the setup.
+   - **Verdict-sentence pairing: ≤1 per paragraph, ≤2 per piece (v1.3.0).** The long-evidence/short-verdict move is a signature, not a skeleton. If three sentences in a row are set up as punchlines, flatten two of them — and count across the whole piece: three short verdicts in ten sentences reads as a formula even when each obeys the per-paragraph cap. **Qualified, never bare (v1.4.0, Ahmed):** every standalone verdict carries a qualifier or subordinate clause — "Adoption, however, is often the easy part.," not "Adoption is the easy part." Useful qualifiers: however, often, in practice, at least, for now, on its own. A bare two-to-five-word verdict poses as a casual aside; that pose is the AI tell. **But qualify with observation, not knowingness (v1.5.2, Ahmed):** "as it usually does," "as always," "predictably," "of course" are banned asides — the voice doesn't wink that it saw it coming. Exception: the fragment answer inside the rhetorical-question device stays ("A potential pitfall? Settling for too little."), because the question carries the setup.
    - **Evidence mix: at most one attributed survey per piece (v1.3.0).** Anchor on a single survey; every further evidence point should be a named company, a dated decision, or an observable fact. Two surveys stacked reads as report aggregation, not a point of view.
    - **Ban the negative-reveal opener** ("A new class of X is entering…, and it does not Y"). State the subject's claim directly instead.
    - **Ban in-line justification**: "which is exactly why," "the result is a… that," "which is precisely." State the fact; let the implication sit. Trust the reader.
@@ -99,6 +99,7 @@ This skill is versioned and tracked in the public `emerson-style` repo (Overcloc
 - DON'T write bare pithy verdicts ("Adoption is the easy part.") that pose as casual asides — qualify the verdict ("Adoption, however, is often the easy part."). The unqualified punchline is an AI giveaway (Ahmed, 2026-09-19).
 - DON'T close with an imperative addressed to the reader ("Fund the review layer…") — the shift from impersonal exposition to helpful-assistant advice is an AI giveaway. Close on the observation; let the reader draw the prescription (Ahmed, 2026-09-19).
 - DON'T frame evidence through a hip in-group ("The teams getting the most from agents…") — casual insider language is an AI giveaway. Name the practice and its evidence directly (Ahmed, 2026-09-19).
+- DON'T qualify with knowing asides ("as it usually does," "as always," "predictably") — the voice doesn't wink that it saw it coming (Ahmed, 2026-09-19).
 - DON'T stack surveys: one attributed survey per piece, then switch to named cases and observable facts. Two surveys in one piece reads as aggregation (self-assessment, 2026-09-19).
 - DON'T overcorrect the other way: the budgets cap signature devices, they don't ban them. All-short sentences and zero texture is staccato slop, not Emerson Style (Ahmed, 2026-09-19).
 - DON'T open with a negative reveal or close by announcing the insight; the ending observes, it doesn't summarize or prescribe.
