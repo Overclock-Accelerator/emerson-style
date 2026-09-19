@@ -2,6 +2,14 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.9.0 — 2026-09-19
+
+Source: Ahmed's approvals and corrections on the v1.8.0 daily test (AI-ROI-after-the-pilot piece) in #ai-writing-voice.
+
+- **Root-echo rule extended across sentence boundaries (Ahmed: "Extend the root echo rule").** The v1.6.0 rule banned doubled roots inside one sentence; the v1.8.0 test echoed "workflow" through three consecutive sentences and passed legally. Now: the same content root in 3+ consecutive sentences reads generated even when each sentence is clean — vary the noun or restructure the middle sentence. Gate 3 and Do/Don't updated.
+- **Format-scoping addendum (Ahmed: "Fine on format scoping").** For standalone-sentence runs carrying an attribution sentence, a median of 15–16 is acceptable — chasing 14 fragments the evidence sentences. Gate 1 updated.
+- **Bridge-the-jump-cut rule (Ahmed, mid-revision correction).** Sentences should not cut harshly from one to the next when a bridge is natural: "The stall, however, is rarely a model problem. The budgets that funded the experiment did not fund…" leaves the reader to make the turn alone; "Instead, the real problem often sits in the budgets: …" hands off explicitly. Scan every boundary where a sentence explains or extends the previous one; a cold new subject gets a transitional marker or a restated subject. Scoped to sentence-level hand-offs — the formal-opener ban (Furthermore/Moreover/Therefore as paragraph scaffolding) stands. Gate 3 and Do/Don't updated.
+
 ## 1.8.0 — 2026-09-19
 
 Source: Ahmed's consolidated list of what AI writing does badly, translated into the style guide (v0.7) and folded in here.
