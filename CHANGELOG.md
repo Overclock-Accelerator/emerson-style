@@ -2,6 +2,12 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.11.1 — 2026-09-19
+
+Source: Ahmed's portability note for outside users of the skill.
+
+- **No-TTS fallback for Gate 6.** The read-aloud gate no longer assumes a TTS provider: if no provider or API key is configured, skip the audio and run the gate manually (read aloud yourself, or do the analytic breath/sound-trip pass silently). TTS is a convenience, never a delivery blocker. Gate 6 and Do/Don't updated.
+
 ## 1.11.0 — 2026-09-19
 
 Source: subvocalization research commissioned by Ahmed (`workspace/subvocalization-research-2026-09-19.md` — phonological loop, cognitive load theory, write-for-the-ear speechwriting craft). All six proposed rules approved by Ahmed and implemented.

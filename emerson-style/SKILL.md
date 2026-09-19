@@ -1,7 +1,7 @@
 ---
 name: emerson-style
 description: "Use when Ahmed asks for copy in 'Emerson Style'."
-version: 1.11.0
+version: 1.11.1
 author: Emerson (extracted 2026-09-19 from PwC/Strategy& insight articles)
 license: internal-use
 metadata:
@@ -56,7 +56,7 @@ This skill is versioned and tracked in the public `emerson-style` repo (Overcloc
    - **Word-length plainness (added v1.11.0).** Prefer the shorter word when the meaning survives; no sentence built mostly of 3+ syllable abstractions. General-audience prose averages 4–5 letters per word — a polysyllabic run costs the inner voice decoding effort it should be spending on the argument.
 5. **Gate 4 — Do/Don't checklist.** Walk the Do/Don't list below line by line against the draft.
 6. **Gate 5 — Vale (if installed).** Run `vale` with the Emerson style pack on the file; fix errors, weigh warnings.
-7. **Gate 6 — Read-aloud pass (added v1.11.0).** Read the draft aloud at speaking pace — actually aloud, or through a TTS pass. The subvocalizing reader performs this prose, so the final gate is the ear, not the eye. Any sentence where the breath runs out gets split (see Gate 1's breath rule). Also scan for sound trips: unintended rhyme and sibilant or alliterative runs in adjacent stressed words. Distinct from the root-echo rule — an echo is a repeated word root, a trip is a sound collision, and both trip the inner voice.
+7. **Gate 6 — Read-aloud pass (added v1.11.0).** Read the draft aloud at speaking pace — actually aloud, or through a TTS pass when a provider is configured. The subvocalizing reader performs this prose, so the final gate is the ear, not the eye. Any sentence where the breath runs out gets split (see Gate 1's breath rule). Also scan for sound trips: unintended rhyme and sibilant or alliterative runs in adjacent stressed words. Distinct from the root-echo rule — an echo is a repeated word root, a trip is a sound collision, and both trip the inner voice. **No-TTS fallback (v1.11.1, Ahmed):** TTS is a convenience, not a requirement. If no TTS provider or API key is available, skip the audio and run the gate manually — read the draft aloud yourself, or do the analytic pass (breath rule, sound-trip scan) silently. Never block delivery on TTS availability.
 8. **Deliver with a note** naming the style and version ("Emerson Style vX.Y.Z") and flagging any spots that need real client data (percentages, survey counts) — never invent figures. When posting test pieces to Slack, format the sentences into paragraphs of 2–4 (matching the voice's own paragraph-length profile) — never one run-on block of ten sentences (v1.5.1, Ahmed).
 
 ## The profile
@@ -122,7 +122,7 @@ This skill is versioned and tracked in the public `emerson-style` repo (Overcloc
 - DON'T joke, hedge with "might perhaps," or speak in first person singular; the voice is the firm ("we," "our survey").
 - DON'T compress for compression's sake: a draft with zero connectives (however, although, still, yet) has been edited for token economy, not for readers (Ahmed, 2026-09-19).
 - DON'T stack connectives and hedges either: however more than twice a piece, a hedge clause in every paragraph, or a sentence that both turns on a connective and carries a hedge burdens the reader — helpful in ones, burdensome overused (Ahmed, 2026-09-19).
-- DO read the draft aloud (or through TTS) before delivery — the voice is written for a reader who subvocalizes, so the ear is the final gate. Any sentence where the breath runs out gets split (v1.11.0).
+- DO read the draft aloud (or through TTS) before delivery — the voice is written for a reader who subvocalizes, so the ear is the final gate. Any sentence where the breath runs out gets split (v1.11.0). If no TTS provider is configured, read it aloud yourself — the gate is the ear-check, not the audio (v1.11.1, Ahmed).
 - DO punctuate long sentences for the lungs: an internal pause point (comma or em-dash) in every sentence over ~20 words, placed where a speaker would naturally pause (v1.11.0).
 - DON'T write 25+ word sentences with no internal punctuation, and don't bury the main verb — in a long sentence the subject and verb arrive inside the first ~10 words, with one level of embedding only (v1.11.0).
 - DON'T stack 3+ syllable abstractions when a shorter word carries the same meaning — polysyllabic runs cost the inner voice decoding effort it should be spending on the argument (v1.11.0).
