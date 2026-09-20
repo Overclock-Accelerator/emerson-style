@@ -2,6 +2,10 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.15.0 — 2026-09-20
+
+Source: self-assessment of the daily test on the read-vs-ship divide (Theo Browne's July question, Hashimoto's "agent psychosis"). Three additions, all from the run's own proposals: (1) Evidence-mix rule now explicitly blesses named practitioners carrying dated actions as first-class evidence, alongside named companies and dated decisions. (2) New Gate 3 check — deferred-payoff opener: an opener that names a frame must cash it out by the final third of the piece; loose threads may stay open, unpaid frames may not. (3) New Openers device — quoted-question evidence: a real, dated question from a named practitioner carried inside em-dashes grounds the era framing in a verifiable moment.
+
 ## 1.14.0 — 2026-09-19
 
 Source: Ahmed's thread feedback on the v1.13.0 redo of the agentic-code-review test. Two corrections: (1) "And yes root out that shape of sentence" — the mirror-negation ban now covers the affirm/negate *shape* itself, not just the bare "is not"; the v1.13.0 fix sentence ("The productivity is real; the capacity to review the work, however, never grew with it.") still fails. (2) "The thing I want you to keep refining is the culling of advice baked into the language" — Ahmed flagged "Dismissal carries its own risk" from the redo as counsel disguised as observation: "rather than being a plain spoken narrator of what's occurring."
