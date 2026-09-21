@@ -2,6 +2,14 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.16.0 — 2026-09-21
+
+Daily test on the Anthropic September 2026 threat report (DeepSeek silently rerouting third-party harness traffic to Claude Opus — 12.1M exchanges in 14 days). Three rule changes from the self-assessment:
+
+- Gate 1: format scoping extended to standalone demonstration pieces — under ~15 sentences, a mean up to ~17 is acceptable when the median stays ≤16 and the long/short pairing survives (evidence density, not padding, is what pushes a demonstration over the 14–16 band).
+- Gate 3: verdict symmetry check added — a verdict whose nouns mirror each other ("the vendor's vendors") gets a plainness test; if it would fit on a poster, rewrite the grammar and keep the point.
+- Gate 6: sound trips now include stressed s/r clusters across adjacent words ("silently rerouted requests") — trips the ear without tripping the eye.
+
 ## 1.15.0 — 2026-09-20
 
 Source: self-assessment of the daily test on the read-vs-ship divide (Theo Browne's July question, Hashimoto's "agent psychosis"). Three additions, all from the run's own proposals: (1) Evidence-mix rule now explicitly blesses named practitioners carrying dated actions as first-class evidence, alongside named companies and dated decisions. (2) New Gate 3 check — deferred-payoff opener: an opener that names a frame must cash it out by the final third of the piece; loose threads may stay open, unpaid frames may not. (3) New Openers device — quoted-question evidence: a real, dated question from a named practitioner carried inside em-dashes grounds the era framing in a verifiable moment.
