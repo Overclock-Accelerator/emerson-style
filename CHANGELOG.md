@@ -2,6 +2,14 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.17.0 — 2026-09-22
+
+Daily test on the end of flat-rate AI coding (GitHub Copilot's June 2026 metered-billing cutover, Microsoft's internal Claude Code cutoff, Uber's blown AI budget). Three rule changes from the self-assessment:
+
+- Gate 1: format scoping for verbatim quotes — a sentence built around quoted speech (attribution + quote) runs long by construction; count the quote's words as evidence, not cadence, provided the quote itself is short and the surrounding sentences hold the mean.
+- Gate 3: root-echo rule gains a quote exemption — a verbatim quote cannot be rewritten to vary a noun, so quoted speech stays out of the 3-consecutive-sentence count; vary the sentences around the quote instead.
+- Gate 3: news-stack check added — a paragraph of 3+ consecutive reportage sentences with no causal hand-off reads as wire copy, not analysis; each evidence stack needs one consequential turn.
+
 ## 1.16.0 — 2026-09-21
 
 Daily test on the Anthropic September 2026 threat report (DeepSeek silently rerouting third-party harness traffic to Claude Opus — 12.1M exchanges in 14 days). Three rule changes from the self-assessment:
