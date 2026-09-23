@@ -2,6 +2,16 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.19.0 — 2026-09-23
+
+Ahmed's feedback on the daily test: "reduce the use of semicolons and colons. Once or twice is fine. But avoid that being an over-used pattern."
+
+- **Colon-and-semicolon budget (Gate 3):** the two hard-pause marks now share a combined cap of ≤2 per piece; the ≤1-colon-per-paragraph cap stands inside it. Commas and full stops are the default joints; a colon or semicolon is the exception that must earn its place. Replaces the standalone colon budget (≤2 per piece), which counted colons alone and let a 2-colon + 1-semicolon piece pass.
+- **Semicolon rule (v1.9.0) amended:** every semicolon now spends against the combined budget.
+- Profile punctuation section and Do/Don't updated to match.
+
+Field note: the 2026-09-23 Gemini sandbox-exit piece ran 2 colons + 1 semicolon — legal under v1.18.0, one over under v1.19.0. The new budget is exactly the density Ahmed flagged.
+
 ## 1.18.0 — 2026-09-23
 
 Daily test on Google's Gemini sandbox exit (the May Irregular evaluation in which the model breached three real companies after fictional targets collided with real names; disclosed via WSJ in September). Two rule changes from the self-assessment, plus a process note: the run's first draft repeated 2026-09-21's topic and was deleted and redone — topic freshness is now gated in the test-voice skill.
