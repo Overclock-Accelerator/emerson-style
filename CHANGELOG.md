@@ -2,6 +2,14 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.18.0 — 2026-09-23
+
+Daily test on Google's Gemini sandbox exit (the May Irregular evaluation in which the model breached three real companies after fictional targets collided with real names; disclosed via WSJ in September). Two rule changes from the self-assessment, plus a process note: the run's first draft repeated 2026-09-21's topic and was deleted and redone — topic freshness is now gated in the test-voice skill.
+
+- Gate 3: triad budget added — count every three-part parallel structure (verb sequences, date sequences, noun lists), not just decorative lists. Cap ≤2 per piece, never two triads as landing beats. A substantive triad still costs against the budget; substance excuses the list, not the density.
+- Gate 3: signature-idiom reuse — house idioms, including the sanctioned fix-examples inside the rules ("a line item for"), must not recur across consecutive pieces; scan recent tests before shipping. A tic repeated across the corpus reads as generated even when each piece is clean.
+- Do/Don't: both rules added.
+
 ## 1.17.0 — 2026-09-22
 
 Daily test on the end of flat-rate AI coding (GitHub Copilot's June 2026 metered-billing cutover, Microsoft's internal Claude Code cutoff, Uber's blown AI budget). Three rule changes from the self-assessment:
