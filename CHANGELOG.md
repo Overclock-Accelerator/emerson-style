@@ -2,6 +2,15 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.20.0 — 2026-09-24
+
+From the 2026-09-24 daily test (Plugin4Shell, the SHA-pinning bypass in four AI coding agents). Two rule changes from the self-assessment, merged same day per standing order:
+
+- **Version identifiers count as statistics (Gate 6, extends the v1.12.0 statistic-stacking rule):** alphanumeric version strings ("2.1.179 and 0.146.0") trip the ear worse than percentages. Max one dotted identifier per sentence; prefer the dated action ("patched in August") when both exist.
+- **Ranking comparatives steer (Gate 3, new):** "X matters more than Y" / "outweighs" assign the reader a weighting — counsel dressed as comparison, a soft cousin of the v1.14.0 counsel-in-language ban. Prefer verbs that narrate the relationship (outlasts, precedes, survives) over verbs that assign weight.
+
+Field note: both tells were caught pre-publication except one — "matters more than any single response" shipped in the posted piece and is flagged honestly in the thread. The triad budget (v1.18.0) and signature-idiom scan (v1.18.0) both did visible work in this run: one triad held, "a line item for" kept out of the closer.
+
 ## 1.19.0 — 2026-09-23
 
 Ahmed's feedback on the daily test: "reduce the use of semicolons and colons. Once or twice is fine. But avoid that being an over-used pattern."
