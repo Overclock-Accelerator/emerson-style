@@ -2,6 +2,15 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.21.0 — 2026-09-25
+
+From the 2026-09-25 daily test (the Gambit Security disclosure: an autonomous attack campaign costing a mean of $25.46 per company). Two rule changes from the self-assessment, merged same day per standing order:
+
+- **Summary-verdict check (Gate 3, new):** a verdict that restates the evidence's own direction ("The two measurements point the same way," "The numbers tell one story") recaps the figures instead of adding a turn — a recap in verdict clothing is the announce-y closer moved indoors. If cutting the verdict loses no information, cut it and let the figures sit.
+- **Hedge-as-qualifier audit (Gate 3, extends v1.4.0):** a verdict whose only qualifier is a vagueness hedge ("in places," "in some ways," "to some extent") counts as unqualified — the qualifier must carry information, not just soften.
+
+Field note: both tells shipped in the posted piece ("In places, it reads like a cost of goods sold" and "The two measurements point the same way") and are flagged honestly in the thread. The v1.20.0 rules did visible work: "claude-opus-4.6" never made the draft (dated action instead), and a "matters more than the card count" sentence was rebuilt as plain narration before gating.
+
 ## 1.20.0 — 2026-09-24
 
 From the 2026-09-24 daily test (Plugin4Shell, the SHA-pinning bypass in four AI coding agents). Two rule changes from the self-assessment, merged same day per standing order:
