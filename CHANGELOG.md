@@ -2,6 +2,15 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.22.0 — 2026-09-28
+
+From the 2026-09-28 daily test (Anthropic–Accenture embedded evaluation: frontier oversight on the issuer-pays model). Two rule changes from the self-assessment, merged same day per standing order:
+
+- **Definitional-copula opener audit (Gate 3, new):** a short "The X is Y" sentence that names what the paragraph will examine ("The open term is what evaluators may publish") is announce-y scaffolding in a topic sentence's clothes — it dodges the verdict-qualifier rules while rhythmically landing as a verdict beat. Count it toward the verdict-pairing budget, or cut it and state the thing itself.
+- **Root-echo detection note (v1.6.0 extension):** the within-sentence doubled-root scan runs across clause boundaries — a comma, "although," or an em-dash does not reset the count ("an outside party inside the lab, although one whose invoice the lab signs" is one sentence and one violation).
+
+Field note: the "lab … lab" echo shipped in the posted piece and is flagged honestly in the thread; the ear caught what the eye's clause-level scan missed. The v1.21.0 rules did visible work before gating: a vagueness hedge ("in this market") was cut from the para-2 verdict, and an "outweighs" closer was rebuilt as plain narration per v1.20.0.
+
 ## 1.21.0 — 2026-09-25
 
 From the 2026-09-25 daily test (the Gambit Security disclosure: an autonomous attack campaign costing a mean of $25.46 per company). Two rule changes from the self-assessment, merged same day per standing order:
