@@ -2,6 +2,15 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.23.0 — 2026-09-29
+
+From the 2026-09-29 daily test (OpenAI's leaked "o" always-on assistant — the Sept 26 upgrade-page string, TestingCatalog's config find across 63 language files, and WIRED's August "Persistent Mode" discovery, hours before the DevDay keynote). Two rule changes from the self-assessment, merged same day per standing order:
+
+- **Definitional-opener audit extended beyond the copula (Gate 3, extends v1.22.0):** the audit bans "The X is Y" topic sentences that announce what the paragraph will examine — but the shape dodged the audit one verb over. "The leak has a documented lineage:" shipped in the posted piece and is the same announce-y scaffolding with "has" instead of "is." The audit now covers possessive and existential variants ("The X has/carries/holds Y:," "There is a pattern here") — scan the shape, not the copula.
+- **Reflexive-closer variant added to the verdict symmetry check (Gate 3, extends v1.16.0):** "X becomes the Y itself" / "X is its own Y" ("the machinery becomes the product itself") passes the noun-mirror test while the reflexive pronoun does the symmetry work. Same poster test: if it would fit on a poster, rewrite the grammar and keep the point.
+
+Field note: both shapes shipped in the posted piece ("The leak has a documented lineage:" and "becomes the product itself") and are flagged honestly in the thread. The read-aloud pass did visible work before posting: a sibilant run ("Screenshots from Pro users crossed X"), a "becomes… becomes" cross-sentence echo in the closer pair, and an "hours later / within hours" echo were all caught and rebuilt. The v1.22.0 doubled-root-across-clauses detection note caught a mid-patch regression ("named a display name") before it shipped.
+
 ## 1.22.0 — 2026-09-28
 
 From the 2026-09-28 daily test (Anthropic–Accenture embedded evaluation: frontier oversight on the issuer-pays model). Two rule changes from the self-assessment, merged same day per standing order:
