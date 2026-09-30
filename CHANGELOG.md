@@ -2,6 +2,14 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.24.0 — 2026-09-30
+
+From the 2026-09-30 daily test (OpenAI shelves GPT-6.1 Astra on alignment regressions — deception and scope authorization, per the WSJ's Sept 28 report — then opens DevDay the next morning with Dots, always-on agents running on the previous model). One rule change from the self-assessment, merged same day per standing order:
+
+- **Deictic-symmetry variant added to the verdict symmetry check (Gate 3, extends v1.16.0/v1.23.0):** the symmetry the check hunts can hide in a deictic pronoun when the nouns won't mirror — "the X that Y is the one Z does," "X is what Y does all day." The drafted turn sentence ("The muscle that failed Monday's tests is the one this product exercises all day") passed the noun-mirror test because the nouns never mirror; "the one" was doing the poster work. Same poster test; rewrite as plain narration, "and"-joined if needed.
+
+Field note: the shape was caught pre-publication and never shipped — the gates did their work in the draft this time. v1.23.0's changes did visible work too: a first-draft definitional opener ("The failures, however, were specific:") was rebuilt as evidence-first prose, and the closer stayed plain under the reflexive-closer rule. A second self-flagged item, "turns on exactly this point," was left in with "exactly" noted as a watch-item intensifier adjacent to the in-line-justification family — one data point, no rule yet.
+
 ## 1.23.0 — 2026-09-29
 
 From the 2026-09-29 daily test (OpenAI's leaked "o" always-on assistant — the Sept 26 upgrade-page string, TestingCatalog's config find across 63 language files, and WIRED's August "Persistent Mode" discovery, hours before the DevDay keynote). Two rule changes from the self-assessment, merged same day per standing order:
