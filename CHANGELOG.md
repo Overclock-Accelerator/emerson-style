@@ -2,6 +2,16 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.25.0 — 2026-10-01
+
+From the 2026-10-01 daily test (Anthropic's Sonnet 5.5 launch — the list price held at $2/$10 while the savings claim moved to per-task consumption, and the mid-tier beat the flagship on Anthropic's own Terminal-Bench 4.0 table, 70.6% to 66.4%). Three rule changes from the self-assessment, merged same day per standing order:
+
+- **Preview-clause audit (Gate 3):** a clause that names what its own sentence is about to show ("the ordering flips —") is the definitional-opener dodge moved indoors. The shipped piece carried it; the numbers demonstrated the flip on their own. If the clause after the dash or colon carries the evidence, cut the clause that previews it.
+- **Implication-beats count as verdicts (Gate 3):** "With capability converging, the contest moves to cost per task" shipped as a third punchline in a piece budgeted for two verdicts — it carried a subordinate clause and still did verdict work. Any short sentence landing a paragraph's punchline now counts toward the ≤1-per-paragraph, ≤2-per-piece cap whatever its grammar. Count the beat, not the grammar.
+- **Bridge echo budget (Gate 3):** the restated-subject bridge (v1.9.0) repeated the exact noun phrase across the boundary ("cost per task. Cost per task"), turning the hand-off into a device. Vary the noun or fold the pair into one sentence. Distinct from the root-echo rule — the echo is the bridge itself, verbatim.
+
+Field note: v1.24.0's deictic-symmetry rule kept the closer plain ("its first outside reading arrives on the buyer's invoice") with no "the one" construction ever drafted, and v1.18.0's idiom-reuse scan rerouted the vendor-doubt phrasing away from yesterday's "no outsider has verified." Two days running, the gates caught problems in the draft; today's three catches shipped and were flagged honestly in the thread.
+
 ## 1.24.0 — 2026-09-30
 
 From the 2026-09-30 daily test (OpenAI shelves GPT-6.1 Astra on alignment regressions — deception and scope authorization, per the WSJ's Sept 28 report — then opens DevDay the next morning with Dots, always-on agents running on the previous model). One rule change from the self-assessment, merged same day per standing order:
