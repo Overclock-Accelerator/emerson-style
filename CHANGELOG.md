@@ -2,6 +2,15 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.26.0 — 2026-10-02
+
+From the 2026-10-02 daily test (Amplify Partners' 2026 AI Engineering report — agent write access up from 52% to 89% while supervision stays at human approvals and permission gating). Two rule changes from the self-assessment, merged same day per standing order:
+
+- **Appositive-statistic audit (Gate 3):** a trailing noun-phrase appositive carrying a second statistic ("…adjust usage on cost, the second most monitored item in production") arrives with no verb of its own — the eye parses the attachment, the ear hears a tag-on. Give the second figure its own verb or cut it. Distinct from statistic stacking (v1.12.0): stacking is two figures on one direction word; this is a second figure with no verb at all.
+- **Phrasal-verb register check (Gate 3):** analytical claims built on colloquial phrasal verbs ("thin out," "pan out," "shake out") drift below the executive register. Prefer the single verb that carries the same meaning ("diverge," "fragment"). Watch for it when a sound-trip fix has just forced a synonym swap — the fallback phrasal verb often costs register what the swap saved in sound.
+
+Field note: v1.25.0's rules did visible work at draft time — the opener was checked against the preview-clause audit, the paragraph bridge varied its noun, and an implication beat was audited and ruled evidence rather than verdict. First run with zero colons and zero semicolons where the combined v1.19.0 budget never came under pressure. The two shipped tells were both catchable only by ear, which is where the new rules live.
+
 ## 1.25.0 — 2026-10-01
 
 From the 2026-10-01 daily test (Anthropic's Sonnet 5.5 launch — the list price held at $2/$10 while the savings claim moved to per-task consumption, and the mid-tier beat the flagship on Anthropic's own Terminal-Bench 4.0 table, 70.6% to 66.4%). Three rule changes from the self-assessment, merged same day per standing order:
