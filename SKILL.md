@@ -1,7 +1,7 @@
 ---
 name: emerson-style
 description: "Use when Ahmed asks for copy in 'Emerson Style'."
-version: 1.26.0
+version: 1.27.0
 author: Emerson (extracted 2026-09-19 from PwC/Strategy& insight articles)
 license: internal-use
 metadata:
@@ -52,6 +52,7 @@ This skill is versioned and tracked in the public `emerson-style` repo (Overcloc
    - **Ranking comparatives steer (added v1.20.0).** "X matters more than Y" and "X outweighs Y" assign the reader a weighting — counsel dressed as comparison, a soft cousin of the v1.14.0 counsel-in-language ban. The comparative's referent may be present (orphan rule clean) and the sentence still steers. Prefer verbs that narrate the relationship ("outlasts," "precedes," "survives") over verbs that assign weight. Same test as v1.14.0: report what is occurring, don't manage the reader's conclusion.
    - **Preview-clause audit (added v1.25.0).** A clause that names what its own sentence is about to show ("the ordering flips —," "the pattern is clear:") is the definitional-opener dodge moved indoors — the sentence demonstrates the thing, so the clause announcing it is scaffolding. If the clause after the dash or colon carries the evidence, cut the clause that previews it.
    - **Implication-beats count as verdicts (added v1.25.0).** Any short sentence that lands a paragraph's punchline counts toward the verdict-pairing budget (≤1 per paragraph, ≤2 per piece) whatever its clause structure — a qualified implication ("With X converging, the contest moves to Y") carries a subordinate clause and still does verdict work. Count the beat, not the grammar.
+   - **Ellipsis-verdict audit (added v1.27.0).** A short verdict that ends on a stranded auxiliary or assigns unspecified work ("doing the work a benchmark cannot," "delivers what the pilot did not") compresses its own second half, and the reader must rebuild the claim. Two tests: the elided verb phrase must be recoverable from the same sentence, and the work the verdict assigns must be named somewhere in the piece. Recoverable ellipsis passes the first test; unnamed work fails the second — either name the work ("buying credibility with the defenders who will vouch for it") or fold the claim into the evidence sentence. Cousin to the deferred-payoff opener check (v1.15.0), which traces openers; this one traces verdicts making function claims.
    - **Bridge echo budget (added v1.25.0).** A restated-subject bridge (v1.9.0) that repeats the previous sentence's exact noun phrase ("…moves to cost per task. Cost per task is…") turns the hand-off into a device — vary the noun or fold the pair into one sentence. Distinct from the root-echo rule: the echo here is the bridge itself, repeated verbatim across the boundary.
    - **Appositive-statistic audit (added v1.26.0).** A trailing noun-phrase appositive that carries a second statistic ("three in four adjust usage on cost, the second most monitored item in production") arrives with no verb of its own — the eye parses the attachment, the ear hears a tag-on. Give the second figure its own verb ("which is now the second most monitored item") or cut it. Distinct from statistic stacking (v1.12.0): stacking is two figures sharing one direction word; this is a second figure with no verb at all.
    - **Phrasal-verb register check (added v1.26.0).** Analytical claims built on colloquial phrasal verbs ("thin out," "pan out," "shake out") drift below the executive register — the voice's claims run on single verbs. Prefer the single verb that carries the same meaning ("diverge," "fragment," "settle"). Watch for it when a sound-trip fix has just forced a synonym swap: the fallback phrasal verb often costs register what the swap saved in sound.
@@ -171,6 +172,7 @@ This skill is versioned and tracked in the public `emerson-style` repo (Overcloc
 - DON'T reuse house idioms across consecutive pieces ("a line item for") — the voice's own tics become AI tells at corpus level; scan recent tests before shipping (v1.18.0).
 - DON'T let a second statistic ride as a trailing appositive with no verb ("…on cost, the second most monitored item in production") — the ear hears a tag-on; give the figure its own verb or cut it (v1.26.0).
 - DON'T build analytical claims on colloquial phrasal verbs ("thin out," "shake out") — the register runs on single verbs, so prefer "diverge" or "fragment" when the meaning survives (v1.26.0).
+- DON'T let a short verdict end on a stranded auxiliary or assign work the piece never names ("doing the work a benchmark cannot") — the ellipsis must be recoverable in-sentence and the work named in the piece, or the verdict folds into the evidence (v1.27.0).
 
 ## Calibration passages (few-shot payload — verbatim from source)
 

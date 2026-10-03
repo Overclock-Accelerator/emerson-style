@@ -2,6 +2,14 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.27.0 — 2026-10-03
+
+From the 2026-10-03 daily test (Google's Gemini 4 Argon launch — a benchmark-leading model released only to vetted cyber defenders through the Fairwind program, with no general-availability date). One rule change from the self-assessment, merged same day per standing order:
+
+- **Ellipsis-verdict audit (Gate 3):** the shipped verdict "The restriction, however, is doing the work a benchmark cannot" passed every gate and still read as a compressed aphorism — the stranded auxiliary was recoverable in-sentence, but the work the restriction supposedly does was never named anywhere in the piece. Two tests now apply to verdicts making function claims: the elided verb phrase must be recoverable from the same sentence, and the assigned work must be named in the piece. Cousin to the v1.15.0 deferred-payoff opener check, extended from openers to verdicts.
+
+Field note: v1.26.0's rules did their work at draft time again — the evidence sentence gave both figures the verb's comparison instead of a trailing appositive, and claims ran on single verbs. Second consecutive run with zero colons and zero semicolons. Rhythm landed at mean 15.9 / median 14, dead center of the band.
+
 ## 1.26.0 — 2026-10-02
 
 From the 2026-10-02 daily test (Amplify Partners' 2026 AI Engineering report — agent write access up from 52% to 89% while supervision stays at human approvals and permission gating). Two rule changes from the self-assessment, merged same day per standing order:
