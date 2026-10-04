@@ -2,6 +2,15 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.28.0 — 2026-10-04
+
+From the 2026-10-04 daily test (NVIDIA's DGX Spark 64GB announcement — a $4,999 entry unit arriving October 23 while the 128-gigabyte original moved from a $3,999 launch to $6,950 retail; memory repricing local AI). Two rule changes from the self-assessment, merged same day per standing order:
+
+- **Editorializing-preview variant added to the preview-clause audit (Gate 3, extends v1.25.0):** "Builders who run the systems daily put the comparison plainly —" shipped in the posted piece and was ruled reportage at draft time, but "plainly" grades the evidence before the reader sees it — the preview clause with an opinion attached. Attributed reportage may carry the figures; it may not grade them first. Cut the grade, keep the attribution.
+- **Ceiling-marker note added to the evidence-mix rule (Gate 3):** vendor ceiling figures ("up to 100 billion parameters," "up to 1.7x") keep their ceiling marker in the prose. Both shipped intact in the piece; this codifies the instinct — dropping "up to" converts a vendor ceiling into a claim the vendor never made.
+
+Field note: v1.26.0 and v1.27.0 did their work inside the drafting loop — the appositive-statistic audit rebuilt the price sentence verb-carried before gating, the phrasal-verb check rerouted "sit on a market" to "trace to one market," and the ellipsis-verdict audit was run against the closer at draft time rather than post-hoc. Third consecutive run with zero colons. Rhythm: mean 16.4 / median 15.5, in band. Watch item logged: verdict-qualifier monotony ("however" yesterday, "in effect" today) — one more occurrence becomes a pattern.
+
 ## 1.27.0 — 2026-10-03
 
 From the 2026-10-03 daily test (Google's Gemini 4 Argon launch — a benchmark-leading model released only to vetted cyber defenders through the Fairwind program, with no general-availability date). One rule change from the self-assessment, merged same day per standing order:
