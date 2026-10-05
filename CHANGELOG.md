@@ -2,6 +2,15 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.29.0 — 2026-10-05
+
+From the 2026-10-05 daily test (the AI Agent Accountability Act — Hawley-Murphy's October 1 bill extending the 1986 CFAA to companies whose agents hack, after a summer of disclosed lab breaches and the Ninth Circuit's Amazon v. Perplexity ruling). Two rule changes from the self-assessment, merged same day per standing order:
+
+- **Conclusion-first bridge variant added to the definitional-copula opener audit (Gate 3, extends v1.22.0/v1.23.0):** "The courts had already marked where the old law stops" shipped as a paragraph opener and passed the v1.22.0 audit because it runs on an active verb — but it still states the paragraph's finding before the Ninth Circuit evidence that should produce it. The dodge is the shape, not the copula, and not the verb: open on the evidence, or fold the bridge claim into the evidence sentence.
+- **Same-prefix magnitude pairs added to Gate 6 statistic stacking (extends v1.12.0):** the read-aloud exposed "700 agents… 70,000 messages" as an ear-trip — "seven hundred" against "seventy thousand" — even though the direction-word test passes it. Round-number pairs sharing a spoken prefix echo in the ear; split or reorder when the ratio isn't the point.
+
+Field note: v1.28.0's editorializing-preview rule ran inside the drafting loop — an early draft opened the OpenAI sentence with a characterized preview ("supplied the detail:") and was rebuilt as plain attribution before gating. Fourth consecutive run with zero colons. Rhythm: mean 16.4 / median 16, at the top of the demonstration band. Watch item from 1.28.0 (verdict-qualifier monotony) did not recur — today's verdicts qualified with "unless" and a subordinate clause instead of "however"/"in effect."
+
 ## 1.28.0 — 2026-10-04
 
 From the 2026-10-04 daily test (NVIDIA's DGX Spark 64GB announcement — a $4,999 entry unit arriving October 23 while the 128-gigabyte original moved from a $3,999 launch to $6,950 retail; memory repricing local AI). Two rule changes from the self-assessment, merged same day per standing order:
