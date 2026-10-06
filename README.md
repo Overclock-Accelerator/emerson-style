@@ -17,7 +17,7 @@ Two skills live here:
 
 ## Versioning
 
-Current version: **1.5.2** (see [`VERSION`](VERSION) and [`CHANGELOG.md`](CHANGELOG.md)).
+Current version: **1.30.0** (see [`VERSION`](VERSION) and [`CHANGELOG.md`](CHANGELOG.md)).
 
 Every material change bumps the version and gets a changelog entry, so output can be compared across versions ("written with Emerson Style v1.5.2").
 
