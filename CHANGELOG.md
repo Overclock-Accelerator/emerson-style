@@ -2,6 +2,16 @@
 
 All material changes to Emerson Style are recorded here, newest first. The style follows semver: major for profile rewrites, minor for new gates or rules, patch for wording fixes.
 
+## 1.30.0 — 2026-10-06
+
+From the 2026-10-06 daily test (the decision-model split — TypeSafe's Jev opening the category in September, the Lia and Lev open-source clones, OpenAI's hosted Decisions API at DevDay, and the October 1 same-day releases of Cloudflare's Clef and Amazon's Strands Decider). Three rule changes from the self-assessment, merged same day per standing order:
+
+- **Identity-appositive exemption added to the appositive-statistic audit (Gate 3, scopes v1.26.0):** "Clef, a 27-billion-parameter model with a 38-millisecond flash variant" sits near the banned shape but carries definition, not a second statistic. The audit targets a figure riding verb-less behind a claim, not the appositive that names what a thing IS — stated so the exemption doesn't need re-arguing per sentence.
+- **Separation repair added to the same-prefix magnitude rule (Gate 6, extends v1.29.0):** a pair like "2-billion… 72%" ("two billion" / "seventy-two") can be softened by placing the figures on opposite sides of a verb plus attribution material; split or reorder only when the ear still catches the collision.
+- **Flat-patch threshold made exact (Gate 1, refines v1.12.0):** "under ~13 words" became "12 words or fewer" — a 13-word sentence on the boundary forced a judgment call mid-gate, and the check should be mechanical.
+
+Field note: both v1.29.0 rules ran inside the drafting loop — the same-prefix rule caught "two billion / seventy-two" before gating, and the conclusion-first bridge variant was checked at both paragraph openers. Fifth consecutive run with zero colons. Rhythm: mean 16.7 / median 16 across 12 sentences. The read-aloud caught one surviving sibilant run ("decider that scores a vendor-reported") — left standing, noted as Gate 6 doing its job.
+
 ## 1.29.0 — 2026-10-05
 
 From the 2026-10-05 daily test (the AI Agent Accountability Act — Hawley-Murphy's October 1 bill extending the 1986 CFAA to companies whose agents hack, after a summer of disclosed lab breaches and the Ninth Circuit's Amazon v. Perplexity ruling). Two rule changes from the self-assessment, merged same day per standing order:
